@@ -303,9 +303,3 @@ window.addEventListener('load', function () {
     }
   }
 });
-
-/* const parse = JSON.parse(localStorage.getItem("token"))
-
-console.log(parse) */
-
-console.log(window.location.href)

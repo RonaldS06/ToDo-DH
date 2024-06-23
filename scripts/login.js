@@ -62,7 +62,7 @@ window.addEventListener('load', function () {
                 return
             }
 
-            console.log(data)
+            // console.log(data)
 
             localStorage.setItem('token', data.jwt)
             console.log(`👉Data jwt del usuario ${JSON.stringify(data)}`)

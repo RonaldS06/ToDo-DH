@@ -32,7 +32,7 @@ window.addEventListener("load", function () {
         );
 
         //! Todos retornan false, entonces como este es false no pasa a la condicion isValid
-        console.log(isValidnombre + "🤔");
+        // console.log(isValidnombre + "🤔");
 
         const isValid =
             isValidnombre &&
@@ -81,10 +81,6 @@ window.addEventListener("load", function () {
 
             //Guardamos el token en LocalStorage
             if (data.jwt) {
-                //Tokens de usuarios ya registrados anteriormente
-                //let tokens = JSON.parse(localStorage.getItem('tokens')) || {};
-                //tokens[inputEmail.value] = data.jwt; // Uso de corchetes para clave dinámica
-
                 localStorage.setItem('tokens', data.jwt);
                 form.reset();
                 console.log("Redireccionando")

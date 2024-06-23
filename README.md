@@ -25,3 +25,7 @@ La aplicación consta de cuatro archivos principales:
 
 **👉Agradecimientos:**
 Agradezco a Digital House por proporcionar los materiales de aprendizaje y la API para este proyecto.
+
+**👨Usuario:**
+_Email:_ pepe.test@test.com
+_Contraseña:_ 1234567
